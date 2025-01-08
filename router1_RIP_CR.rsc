@@ -4,9 +4,9 @@
 # model = RB941-2nD
 # serial number = HDJ08PVRQPJ
 /interface wireless
-set [ find default-name=wlan1 ] ssid=KHI
+set [ find default-name=wlan1 ] ssid=KJ
 /interface wireless security-profiles
-set [ find default=yes ] supplicant-identity=KHI
+set [ find default=yes ] supplicant-identity=KJ
 /ip pool
 add name=dhcp_pool0 ranges=192.168.1.2-192.168.1.254
 add name=dhcp_pool1 ranges=192.168.1.2-192.168.1.254

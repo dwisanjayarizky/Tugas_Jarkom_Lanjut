@@ -4,11 +4,11 @@
 # model = RB941-2nD
 # serial number = D1130FD936AB
 /interface wireless
-set [ find default-name=wlan1 ] ssid=KHI
+set [ find default-name=wlan1 ] ssid=KJ
 /interface bridge
 add comment="OSPF loopback" name=loopback
 /interface wireless security-profiles
-set [ find default=yes ] supplicant-identity=KHI
+set [ find default=yes ] supplicant-identity=KJ
 /ip pool
 add name=dhcp_pool0 ranges=192.168.1.34-192.168.1.46
 /ip dhcp-server
