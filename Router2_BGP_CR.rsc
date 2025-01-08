@@ -4,9 +4,9 @@
 # model = RB941-2nD
 # serial number = HF609BYEWH7
 /interface wireless
-set [ find default-name=wlan1 ] ssid=KJ
+set [ find default-name=wlan1 ] ssid=CITRA
 /interface wireless security-profiles
-set [ find default=yes ] supplicant-identity=KJ
+set [ find default=yes ] supplicant-identity=CITRA
 /ip pool
 add name=dhcp_pool0 ranges=192.168.10.2-192.168.10.254
 add name=dhcp_pool1 ranges=17.17.1.2-17.17.1.254

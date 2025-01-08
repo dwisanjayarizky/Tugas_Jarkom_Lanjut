@@ -6,9 +6,9 @@
 /interface bridge
 add comment="OSPF loopback" name=loopback
 /interface wireless
-set [ find default-name=wlan1 ] ssid=KJ
+set [ find default-name=wlan1 ] ssid=CITRA
 /interface wireless security-profiles
-set [ find default=yes ] supplicant-identity=KJ
+set [ find default=yes ] supplicant-identity=CITRA
 /ip pool
 add name=dhcp_pool0 ranges=192.168.1.18-192.168.1.30
 /ip dhcp-server

@@ -4,9 +4,9 @@
 # model = RouterBOARD 941-2nD
 # serial number = 8B0E08B7BB28
 /interface wireless
-set [ find default-name=wlan1 ] ssid=KJ
+set [ find default-name=wlan1 ] ssid=CITRA
 /interface wireless security-profiles
-set [ find default=yes ] supplicant-identity=KJ
+set [ find default=yes ] supplicant-identity=CITRA
 /ip pool
 add name=dhcp_pool0 ranges=10.10.10.2-10.10.10.254
 add name=dhcp_pool1 ranges=14.14.14.2-14.14.14.254
